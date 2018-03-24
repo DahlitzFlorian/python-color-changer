@@ -35,15 +35,15 @@ def blue_red(image):
 @click.option("-c", "--changer", default="red-green", help="Specify the changer. Can be red-green, green-blue or blue-red")
 @click.option("-r", "--result", default="new.jpg", help="Specify the images name.")
 def main(image, changer, result):
-    img = cv2.imread(open(image))
+    img = cv2.imread(image)
     if changer == "red-green":
         new_img = red_green(img)
         cv2.imwrite(result, new_img)
-    elif changer == "red-green":
-        new_img = red_green(img)
+    elif changer == "green-blue":
+        new_img = green_blue(img)
         cv2.imwrite(result, new_img)
-    elif changer == "red-green":
-        new_img = red_green(img)
+    elif changer == "blue-red":
+        new_img = blue_red(img)
         cv2.imwrite(result, new_img)
     else:
         print("Changer does not exist.")
