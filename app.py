@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import click
 
 
 def red_green(image):
@@ -27,3 +28,26 @@ def blue_red(image):
                                     image[i][j][0]])
 
     return image
+
+
+@click.command()
+@click.option("-i", "--image", help="Path to image. Can be a relative path.")
+@click.option("-c", "--changer", default="red-green", help="Specify the changer. Can be red-green, green-blue or blue-red")
+@click.option("-r", "--result", default="new.jpg", help="Specify the images name.")
+def main(image, changer, result):
+    img = cv2.imread(open(image))
+    if changer == "red-green":
+        new_img = red_green(img)
+        cv2.imwrite(result, new_img)
+    elif changer == "red-green":
+        new_img = red_green(img)
+        cv2.imwrite(result, new_img)
+    elif changer == "red-green":
+        new_img = red_green(img)
+        cv2.imwrite(result, new_img)
+    else:
+        print("Changer does not exist.")
+
+
+if __name__ == "__main__":
+    main()
