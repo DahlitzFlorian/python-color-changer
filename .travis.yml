@@ -12,3 +12,4 @@ script:
 before_install:
   - "pip install -U pip"
   - "pip  install color-changer"
+  - "pip install opencv-python"
