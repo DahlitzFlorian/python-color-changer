@@ -11,4 +11,4 @@ script:
   - py.test
 before_install:
   - "pip install -U pip"
-  - "export PYTHONPATH=$PYTHONPATH:$(pwd)"
+  - "export PYTHONPATH=$PYTHONPATH:$(pwd)../"
