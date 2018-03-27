@@ -5,6 +5,8 @@
 This lightweight color-changer allows you to change the colors<br>
 of a given picture and creates a new file of it.
 
+version 1.0.2
+
 ## Installation ##
 You can install it from source or using `pip`
 
