@@ -1,4 +1,6 @@
 # Python Color Changer #
+[![Build Status](https://travis-ci.org/DahlitzFlorian/python-color-changer.svg?branch=master)](https://travis-ci.org/DahlitzFlorian/python-color-changer)
+
 ## Description ##
 This lightweight color-changer allows you to change the colors<br>
 of a given picture and creates a new file of it.
