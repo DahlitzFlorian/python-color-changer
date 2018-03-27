@@ -1,4 +1,4 @@
-from app import red_green, green_blue, blue_red
+from colorchanger.app import red_green, green_blue, blue_red
 import numpy as np
 
 
