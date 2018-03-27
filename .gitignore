@@ -7,3 +7,10 @@
 # pycache 
 __pycache__/*
 */__pycache__/*
+
+# build-files
+.pypirc
+README.rst
+build/*
+color_changer.egg-info/*
+dist/*
