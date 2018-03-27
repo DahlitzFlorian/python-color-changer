@@ -9,3 +9,6 @@ python:
   - "nightly" # currently points to 3.7-dev
 script:
   - py.test
+before_install:
+  - "pip install -U pip"
+  - "export PYTHONPATH=$PYTHONPATH:$(pwd)"
