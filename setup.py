@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='color-changer',
-    version='1.0.0',
+    version='1.0.1',
     packages=['colorchanger', ],
     license='MIT',
     description='Reads in an image and swap specified colors ',
