@@ -14,6 +14,10 @@ You can install it from source or using `pip`
 $ pip install color-changer
 ```
 
+Make sure you have OpenCV installed and named cv2 as usual. 
+[Here](https://medium.com/coding-experiences/setting-up-opencv3-with-python3-on-macos-84be7909e28d)
+you can find an article on how to set it up on OSX with Python3. The other dependencies are installed automatically.
+
 ## Available Arguments ##
 Short | Long | Values
 ------|------|-------
