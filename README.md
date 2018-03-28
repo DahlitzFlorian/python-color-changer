@@ -27,6 +27,6 @@ Short | Long | Values
 
 ## Examples ##
 ```bash
-$ python app.py -i image.jpg
-$ python app.py -i image.png -c red-green
+$ python -m colorchanger.app -i image.jpg
+$ python -m colorchanger.app -i image.png -c red-green
 ```
