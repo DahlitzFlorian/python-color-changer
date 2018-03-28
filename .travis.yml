@@ -11,4 +11,7 @@ before_install:
   - "pip install -U pip"
   - "pip  install color-changer"
   - "pip install opencv-python"
-  - "pip install click"
+notifications:
+  email:
+    on_success: never
+    on_failure: always

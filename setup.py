@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='color-changer',
-    version='1.0.2',
+    version='1.0.3',
     packages=['colorchanger', ],
     license='MIT',
     description='Reads in an image and swap specified colors ',
@@ -19,4 +19,8 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     keywords='color changer color-changer opencv numpy',
+    install_requires=[
+        'click',
+        'numpy'
+    ],
 )
