@@ -4,6 +4,9 @@
 # test_cache
 .pytest_cache/
 
+# DS_Store
+.DS_Store
+
 # pycache 
 __pycache__/*
 */__pycache__/*
